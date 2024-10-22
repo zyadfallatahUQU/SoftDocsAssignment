@@ -1,6 +1,6 @@
 # Robusty - Testing Apps Made Easier⏰
 
-![Robusty Landscape Image](robusty.png)
+![Robusty Landscape Image](robusty.jpg)
 
 Testing Tool To Make Your App More Reliable
 
@@ -138,6 +138,6 @@ robusty automate integration 10min
 [^2]: **_Extionsion_**: The End part of any file, ex: file.exstinsion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDc2OTkwLC03MDk1NjcxMTcsMjEzMT
+eyJoaXN0b3J5IjpbNzc2MjIzODE4LC03MDk1NjcxMTcsMjEzMT
 IzOTgwOF19
 -->
