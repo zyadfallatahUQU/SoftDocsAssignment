@@ -1,20 +1,20 @@
-# Chronos - Time Management Redefined ⏰
+# Robusty - Testing Apps Made Easier⏰
 
-![chronos Interface Image](chronos_screenshot.png)
+![Robusty Landscape Image](robusty_screenshot.png)
 
-Time management tool to Increase your productivity
+Testing Tool To Make Your App More Reliable
 
 ## Key Features 📈
 
-- **Easy To Use**
+- **Easy To Setup**
 
-- **Creating Multiple Projects**
+- **Manual & Automated Tests**
 
-- **Setting Deadlines**
+- **Integration & End-End Test**
 
-- **Communication Tools**
+- **Comprehinsive Bug Reports**
 
-- **Task Assignment**
+- **AI Testing Supported**
 
 ---
 
@@ -28,39 +28,34 @@ Time management tool to Increase your productivity
 
 - **_Windows_**: `Follow The Wizard`
 
-- **_MacOS & Linux_**: Open the command line. Then Write: `sudo apt install chronos chronos-core`
+- **_MacOS & Linux_**: Open the command line. Then Write: `sudo apt install Robusty Robusty-core Robusty-platform`
 
 ---
 
 ## User Guide 📖
 
-### Creating a Project 📅
+### Create a new Test Project 📅
 
 - [ ] Create new project
 
 - [ ] Give a name to the project
 
-- [ ] Create a new deadline
+- [ ] Import the desired File Or Folder
 
-- [ ] Set the deadline date and hour in that date
+- [ ] Choose The Desired Features
 
-- [ ] Press the deadline that you created
-
-- [ ] Create a Task to associate to that deadline
-
-- [ ] Provide Title & Description (required fields)
-
-- [ ] You can have multiple Tasks to one deadline
+- [ ] Press **_Create_** to initalize the Testing Project
 
 ---
 
-### Collaboration 🤝
+### Features Limitaions
 
-| Collaboration Feature | Maximum Use | Description                                          |
-| --------------------- | ----------- | ---------------------------------------------------- |
-| Shared Projects       | 10          | How many project you can be shared with others       |
-| Task Assignments      | 20          | How Many Tasks can be assigned to a deadline         |
-| Communication Tools   | 8           | How many users you can communicate with concurrently |
+| Feature            | Description                                     | Maximum Test Use |
+| ------------------ | ----------------------------------------------- | ---------------- |
+| Integration Tests  | Testing Related Functions                       | 2000             |
+| End To End Tests   | Testing The Application Features                | 150              |
+| AI Generated Tests | AI Predict and Gives Test Cases                 | 500              |
+| Manual Tests       | Create Manual Testing With Manual Specification | unlimited        |
 
 ---
 
@@ -84,65 +79,64 @@ Time management tool to Increase your productivity
 
 ## Troubleshooting ⚡
 
-_Deadline Already Exists:_
+_Testing Cannot Begin:_
 
-: Each Deadline that didn't reach it time is consider unique
+: It's Either The Folder is not linked properly OR There's No Features assigned to that project
 
-_Cannot Join a Project:_
+_Testing Resources is High:_
 
-: If you reach the maximum amount of projects you can Join
+: If you manual changes the Resources Management you need to check the allocation you assigned
 
-_User Not Found:_
+_Testing is not Supported:_
 
-: When trying to communicate with user that doesn't enable communication (Become Anonymous [^1])
+: If Folder doesn't have an entry of the supported exstinsion[^2], Robusty won't start
 
 ## Advanced Usage 👨‍💻
 
 ### Scripting ⌨️
 
-Set a deadline automatically each period of time
+_Create new test project_
 
 ```
+robusty create project as Project_Name
 
-chronos set deadline each (#number) (day | week | month | year)
+robusty use Project_Name
 
+// Should look like this
+> Project_Name
+
+robusty add feature1 feature2
+
+robusty import [File_path OR Folder_path]
+
+// Ensure Everything Is Working
+robusty test .
+```
+
+_Automate Tests_
+
+```
+robusty use Project_Name
+
+// Should look like this
+> Project_Name
+
+robusty automate [test_type] #[min|hour]
 // example
-
-chronos set deadline each 2 week
-
-
-
-// To Push notification
-
-chronos use last deadline to notify
-
-
-
-// create boilerplate task
-
-chronos create task as task-name task-description
-
-chronos attach last task to last deadline
-
-
-
-// ending an old tasks
-
-chronos delete before last task in deadline-name
-
+robusty automate integration 10min
 ```
 
 ---
 
 ### Integrations 🤝⌨️
 
-| Application Name | Description       | Link                                                                                   |
-| ---------------- | ----------------- | -------------------------------------------------------------------------------------- |
-| Notion           | Organize tasks    | [Notion Link](https://www.notion.so/?_x_tr_sl=en&_x_tr_tl=ar&_x_tr_hl=ar&_x_tr_pto=sc) |
-| Word             | Writing documents | [Word Link](https://www.microsoft.com/ar/microsoft-365/word?market=er)                 |
-| Google Keep      | Notes writing     | [Google Keep Link](https://keep.google.com)                                            |
+| Application Name | Type    | Link                                                                                   |
+| ---------------- | ------- | -------------------------------------------------------------------------------------- |
+| VScode           | IDE[^1] | [VScode Link](https://www.notion.so/?_x_tr_sl=en&_x_tr_tl=ar&_x_tr_hl=ar&_x_tr_pto=sc) |
 
-[^1]: **_Anonymous_**: usually used in programming when something become untraceable
+[^1]: **_IDE_**: Integrated Development Enviroments
+[^2]: **_Extionsion_**: The End part of any file, ex: file.exstinsion
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTIzOTgwOF19
+eyJoaXN0b3J5IjpbLTcwOTU2NzExNywyMTMxMjM5ODA4XX0=
 -->
