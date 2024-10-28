@@ -12,7 +12,7 @@ Testing Tool To Make Your App More Reliable
 
 - **Integration & End-End Test**
 
-- **Comprehinsive Bug Reports**
+- **Comprehensive Bug Reports**
 
 - **AI Testing Supported**
 
@@ -48,7 +48,7 @@ Testing Tool To Make Your App More Reliable
 
 ---
 
-### Features Limitaions
+### Features Limitations
 
 | Feature            | Description                                     | Maximum Test Use |
 | ------------------ | ----------------------------------------------- | ---------------- |
@@ -134,10 +134,10 @@ robusty automate integration 10min
 | ---------------- | ------- | -------------------------------------------------------------------------------------- |
 | VScode           | IDE[^1] | [VScode Link](https://code.visualstudio.com/) |
 
-[^1]: **_IDE_**: Integrated Development Enviroments
-[^2]: **_Extionsion_**: The End part of any file, ex: file.exstinsion
+[^1]: **_IDE_**: Integrated Development Environments
+[^2]: **_Extension_**: The End part of any file, ex: file.extension
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NzEwOTAsNzc2MjIzODE4LC03MDk1Nj
-cxMTcsMjEzMTIzOTgwOF19
+eyJoaXN0b3J5IjpbMTk3MDYwMjU2OCw4ODY3MTA5MCw3NzYyMj
+M4MTgsLTcwOTU2NzExNywyMTMxMjM5ODA4XX0=
 -->
