@@ -132,12 +132,12 @@ robusty automate integration 10min
 
 | Application Name | Type    | Link                                                                                   |
 | ---------------- | ------- | -------------------------------------------------------------------------------------- |
-| VScode           | IDE[^1] | [VScode Link](https://www.notion.so/?_x_tr_sl=en&_x_tr_tl=ar&_x_tr_hl=ar&_x_tr_pto=sc) |
+| VScode           | IDE[^1] | [VScode Link](https://code.visualstudio.com/) |
 
 [^1]: **_IDE_**: Integrated Development Enviroments
 [^2]: **_Extionsion_**: The End part of any file, ex: file.exstinsion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2MjIzODE4LC03MDk1NjcxMTcsMjEzMT
-IzOTgwOF19
+eyJoaXN0b3J5IjpbODg2NzEwOTAsNzc2MjIzODE4LC03MDk1Nj
+cxMTcsMjEzMTIzOTgwOF19
 -->
