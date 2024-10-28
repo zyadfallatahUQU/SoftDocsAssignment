@@ -89,7 +89,7 @@ _Testing Resources is High:_
 
 _Testing is not Supported:_
 
-: If Folder doesn't have an entry of the supported exstinsion[^2], Robusty won't start
+: If Folder doesn't have an entry of the supported extension[^2], Robusty won't start
 
 ## Advanced Usage 👨‍💻
 
@@ -138,6 +138,7 @@ robusty automate integration 10min
 [^2]: **_Extension_**: The End part of any file, ex: file.extension
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDYwMjU2OCw4ODY3MTA5MCw3NzYyMj
-M4MTgsLTcwOTU2NzExNywyMTMxMjM5ODA4XX0=
+eyJoaXN0b3J5IjpbODI2NzEzNTE5LDE5NzA2MDI1NjgsODg2Nz
+EwOTAsNzc2MjIzODE4LC03MDk1NjcxMTcsMjEzMTIzOTgwOF19
+
 -->
